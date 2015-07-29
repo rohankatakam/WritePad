@@ -1,0 +1,47 @@
+<html>
+  <div class="h1">
+    <h1 style="margin-left: 50px"><%= Note.last.title %></h1>
+  </div>
+  <div class="sweg">
+    <br>
+    <div class="btn-group" role="group" aria-label="...">
+      <a href="/delete">
+        <button type="button" class="btn btn-default">Delete</button>
+      </a>
+      <a href="/edit">
+        <button type="button" class="btn btn-default">Edit</button>
+      </a>
+</div>
+    <br>
+    <br>
+    </div>
+  
+  <div class="body">
+    <p style="margin-left: 50px"><%= Note.last.text %></p>
+  </div>
+
+</html>
+<style>
+  .sweg{
+    text-align: center;
+    background-color: lightblue;
+  }
+  
+  html{
+    background-image: url('https://bckgrnds.files.wordpress.com/2011/10/cloud_by_avrt-d4azyvm.png');
+  }
+  .h1{
+    background-color: #0561FA;
+    border: 5px black solid;
+    font-family: Impact;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .body{
+    background-color: #0561FA;
+    border: 5px black solid;
+    font-family: Consolas;
+    font-size: 30px;
+  }
+</style>
