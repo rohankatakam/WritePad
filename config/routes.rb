@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  get '/app' => 'application#form'
-  get '/note' => 'application#note'
-  get '/show' => 'application#show'
-  get '/delete' => 'application#delete'
-  get '/edit' => 'application#edit'
-  get '/editnote' => 'application#editnote'
+  get '/app' => 'notes#form'
+  get '/note' => 'notes#note'
+  get '/show' => 'notes#show'
+  get '/delete' => 'notes#delete'
+  get '/edit' => 'notes#edit'
+  get '/editnote' => 'notes#editnote'
 end
